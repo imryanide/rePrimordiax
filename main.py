@@ -8,7 +8,7 @@ from datetime import date
 import asyncpg
 
 # set bot token
-load_dotenv("auths.env")
+load_dotenv(".env")
 TOKEN = os.getenv("TOKEN")
 
 prefix = ["p!", "p! ", "P!", "P! "]
